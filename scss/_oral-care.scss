@@ -1,0 +1,73 @@
+.oral-care{
+   width: 100%;
+   height: 50.2rem;
+}
+hr{width: 80%;
+   margin: 0 0 0 1rem;
+   color: #636363;}
+
+.o-care__contaner{
+   max-width: 67.8rem;
+   height: auto;
+   margin: 0 auto;
+   padding: 0.3rem;}
+
+.header-oral-care{
+   width: auto;
+   height: 3.4rem;
+   display: flex;
+   align-items: center;
+   .p-o-care{font-weight: 700; font-size: 1.5rem;
+      width: 20%;}
+}
+.grids-o-care{
+   display: flex;justify-content: flex-end;}
+.grid-o-care-empty{width: 33rem; height: 47rem;}
+.grid-o-care{
+   width: 33rem;
+   height: 47rem;
+   display: grid;
+   grid-row-gap: .5rem;
+   grid-column-gap: .5rem;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.card-o-care{
+   width: 15.5rem;
+   height: 23rem;
+   border-radius: 30px;
+   background-color: #fff;
+   &:hover{
+   transform: scale(1.5);
+   transition: 2s;}
+}
+
+.ocare-pic{
+   width: 15.5rem;
+   height: 15.5rem;
+   border-radius: 30px;
+}
+.abs-pic-ocare{
+   position: absolute;
+   width: 7.5rem;
+   height: 15.5rem;
+   margin: -14rem 0 0;
+   .span-card{margin: 11rem 0 0;}
+   #sale{margin: -2.6rem 1rem;}
+   .gif{
+      animation: rotateIn infinite;
+      animation-duration: 2s;
+   }
+}
+.info-ocare{
+   margin: 1rem 0;
+   grid-row-gap: .5rem;
+}
+.circles-ocare{
+   display: flex;
+   justify-content: space-between;
+   #months{padding: .6rem; background-color: black;border-radius: 20px; color: #fff;}
+}
+
+
+

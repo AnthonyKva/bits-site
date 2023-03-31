@@ -1,0 +1,57 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;}
+
+body{
+   font-family: 'Signika', sans-serif;
+   position: relative;
+   scroll-behavior: smooth;}
+
+html,body{
+   height: 100%;
+   line-height: 1;
+   font-size: 20px;}
+
+.wrapper{
+   position: relative;
+   width: 100%;
+   min-width: 100%;
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;}
+
+a{
+   text-decoration: none;
+   color: black;
+   &:hover{border: 3px solid #fa91a0;
+      border-radius: 1.5rem;}}
+
+ul,li{
+   text-decoration: none;
+   list-style: none;}
+
+.btn{
+   font-weight: 600;
+   font-size: 18px;
+   padding: 1rem  2rem ;
+   color: #fff;
+   background-color: black;
+   border-radius: 30px;
+   border: none;
+   &:hover{
+      box-shadow: 0 0 5px #fa91a0, 0 0 25px #fa91a0, 0 0 50px #fa91a0,
+      0 0 100px #fa91a0, 0 0 200px #fa91a0;
+      background-color: #fff; color: black;}
+}
+
+
+
+
+@import './_main.scss';
+@import './_cards.scss';
+@import './_three.scss';
+@import './_oral-care.scss';
+@import './_personal-care.scss';
+@import './_footer.scss';

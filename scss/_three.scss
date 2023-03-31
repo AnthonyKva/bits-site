@@ -1,0 +1,44 @@
+.three{
+   width: 100%;
+   height: 80rem;
+   display: flex;
+   justify-content: center;
+}
+.three__container{
+   width: 70rem;
+   height: 100%;
+}
+.bottles,.two-pic{
+   margin: 1rem;
+}
+.bottle{
+   width: 40rem;    
+   position: absolute;
+   display: flex;
+   justify-content: space-around;
+   margin: -20rem 0;
+   transform: rotate(-30deg);}
+
+.pic-soap{
+   animation: heartBeat infinite ;
+   animation-duration: 3s;}
+.pic-complex:hover{
+   animation: fadeIn;
+   animation-duration: 2s;
+}
+
+.bottle-one{
+   animation: tada infinite;
+   animation-duration: 2s;}
+.bottle-two:hover{
+      transform: rotate(360deg);
+      transition: 2s;}
+
+.bottle-two{ transform: rotate(45deg);}
+
+.two-pic{
+   display: flex;
+   justify-content: space-between;
+}
+
+.slider{width: ;}
